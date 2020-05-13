@@ -46,6 +46,10 @@ body {
 
   @media only screen and (max-width: 600px) {
     height: auto;
+    background-image: url("../images/bg-hero-mobile.svg");
+    background-color: $light-cyan;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   &__top {
